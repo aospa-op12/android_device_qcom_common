@@ -1,1 +1,0 @@
-allow vendor_audioadsprpcd device:dir { read watch };

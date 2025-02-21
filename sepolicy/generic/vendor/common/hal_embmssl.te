@@ -1,2 +1,0 @@
-allow vendor_hal_embmssl_qti vendor_nicmd_socket:dir search;
-unix_socket_connect(vendor_hal_embmssl_qti, vendor_nicmd, vendor_nicmd)
