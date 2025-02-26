@@ -80,9 +80,9 @@ else
 endif
 
 # Copy Advanced SF Offsets Config if present
-PRODUCT_COPY_FILES += \
+#PRODUCT_COPY_FILES += \
     $(call find-copy-subdir-files,advanced_sf_offsets.xml,device/qcom/common/vendor/display/$(TARGET_DISP_DIR),$(TARGET_COPY_OUT_VENDOR)/etc/display)
 
 # Get non-open-source specific aspects.
-$(call inherit-product-if-exists, vendor/qcom/common/vendor/display/$(TARGET_DISP_DIR)/display-vendor.mk)
-$(call inherit-product, vendor/qcom/common/vendor/display/display-vendor.mk)
+#$(call inherit-product-if-exists, vendor/qcom/common/vendor/display/$(TARGET_DISP_DIR)/display-vendor.mk)
+#$(call inherit-product, vendor/qcom/common/vendor/display/display-vendor.mk)

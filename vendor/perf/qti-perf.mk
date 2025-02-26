@@ -53,4 +53,4 @@ PRODUCT_VENDOR_PROPERTIES += \
     log.tag.vendor.qti.hardware.servicetrackeraidl-service=E
 
 # Get non-open-source specific aspects
-$(call inherit-product-if-exists, vendor/qcom/common/vendor/perf/perf-vendor.mk)
+#$(call inherit-product-if-exists, vendor/qcom/common/vendor/perf/perf-vendor.mk)
