@@ -49,4 +49,4 @@ ifeq (,$(filter 4.4 4.9 4.14 4.19, $(TARGET_KERNEL_VERSION)))
 endif
 
 # Get non-open-source specific aspects.
-$(call inherit-product-if-exists, vendor/qcom/common/vendor/media/$(TARGET_MEDIA_DIR)/media-vendor.mk)
+# $(call inherit-product-if-exists, vendor/qcom/common/vendor/media/$(TARGET_MEDIA_DIR)/media-vendor.mk)
