@@ -68,4 +68,4 @@ $(call inherit-product, vendor/qcom/opensource/data-ipa-cfg-mgr/ipacm_vendor_pro
 -include device/qcom/wlan/$(TARGET_BOARD_PLATFORM)/wlan.mk
 
 # Get non-open-source specific aspects.
-$(call inherit-product-if-exists, vendor/qcom/common/vendor/wlan/wlan-vendor.mk)
+#$(call inherit-product-if-exists, vendor/qcom/common/vendor/wlan/wlan-vendor.mk)
