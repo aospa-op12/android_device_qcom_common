@@ -79,4 +79,4 @@ else ifeq ($(QC_WIFI_HIDL_FEATURE_DUAL_AP),true)
 endif
 
 # Get non-open-source specific aspects.
-$(call inherit-product-if-exists, vendor/qcom/common/vendor/wlan/wlan-vendor.mk)
+#$(call inherit-product-if-exists, vendor/qcom/common/vendor/wlan/wlan-vendor.mk)
