@@ -96,7 +96,4 @@
     <!-- A string config in svg path format for the main display shape.
          The below shape takes into account rounded corners of radius 20dp. -->
     <string name="config_mainDisplayShape" translatable="false">M20 0h1040s20 0 20 20v2360s0 20 -20 20h-1040s-20 0 -20 -20v-2360s0 -20 20 -20</string>
-
-    <!-- Boolean indicating whether the wifi chipset has dual frequency band support for SAP -->
-    <bool translatable="false" name="config_wifi_dual_sap_mode_enabled">false</bool>
 </resources>
