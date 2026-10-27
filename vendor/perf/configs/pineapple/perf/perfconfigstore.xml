@@ -54,6 +54,8 @@ ________________________________________________________________________________
                 <Prop Name="ro.vendor.perf.ssv2" Value="true" Target="pineapple,cliffs"/>
                 <Prop Name="ro.vendor.perf.lal" Value="true" Target="pineapple,cliffs"/>
                 <Prop Name="ro.vendor.perf.lgl" Value="true" Target="pineapple,cliffs" SkewType="10"/>
+                <!-- AOSPA Edit: Enable EXPENSIVE_RENDERING hint -->
+                <Prop Name="vendor.perf.expensive_rendering" Value="1" />
 
                 <!--System Properties -->
                 <!--LMKD Properties -->
