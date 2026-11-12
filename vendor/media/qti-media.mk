@@ -43,7 +43,7 @@ ifneq (,$(filter 4.14 4.19, $(TARGET_KERNEL_VERSION)))
 endif
 
 # Configure media stack for >=5.4 targets
-ifeq (,$(filter 4.14 4.19, $(TARGET_KERNEL_VERSION)))
+ifneq (,$(wildcard device/qcom/common/vendor/media/$(TARGET_MEDIA_DIR)/init.qti.media.sh))
     PRODUCT_COPY_FILES += \
         device/qcom/common/vendor/media/$(TARGET_MEDIA_DIR)/init.qti.media.sh:$(TARGET_COPY_OUT_VENDOR)/bin/init.qti.media.sh
 endif
