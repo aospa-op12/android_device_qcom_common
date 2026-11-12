@@ -7,8 +7,8 @@
       Each feature has an xml file to define the feature components
 
   ===========================================================================
-  Copyright (c) 2023 Qualcomm Technologies, Inc.
-  All Rights Reserved.
+  Copyright (c) Qualcomm Technologies, Inc. and/or its subsidiaries.
+  All rights reserved.
   Confidential and Proprietary - Qualcomm Technologies, Inc.
   ===========================================================================
 ******************************************************************************/
@@ -106,4 +106,7 @@
         <App1></App1>
         <App2></App2>
     </IgnoredApps>
+    <Trigger>
+        <AsyncId>0x000015E0, 0x00001001, 0x00001002, 0x00001003, 0x00001004, 0x00001040, 0x00001087</AsyncId>
+    </Trigger>
 </Feature>

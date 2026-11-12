@@ -7,8 +7,8 @@
       Each feature has an xml file to define the feature components
 
   ===========================================================================
-  Copyright (c) 2023 Qualcomm Technologies, Inc.
-  All Rights Reserved.
+  Copyright (c) Qualcomm Technologies, Inc. and/or its subsidiaries.
+  All rights reserved.
   Confidential and Proprietary - Qualcomm Technologies, Inc.
   ===========================================================================
 ******************************************************************************/
@@ -51,6 +51,9 @@
             <!-- MPCTLV3_CORE_CTL_MIN_PARTIAL_CPUS_TITANIUM, value -->
             <!-- MPCTLV3_CORE_CTL_ENABLE_TITANIUM, value -->
           <DEFAULT>0x42C28000, 0x1, 0x43034000, 0xA, 0x41444100, 0, 0x41444000, 0, 0x43C0C000, 0x50, 0X43C10000, 300, 0X43C14000, 173, 0x40CE0000, 0x0032000A, 0x40CE0300, 0x00550050, 0x41010300, 0, 0x41008300, 0, 0x41008300, 1</DEFAULT>
-      </Profile>  
+      </Profile>
     </Profiles>
+    <Trigger>
+        <AsyncId>0x00001040, 0x00001041</AsyncId>
+    </Trigger>
 </Feature>
